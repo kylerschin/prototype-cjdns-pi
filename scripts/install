@@ -5,7 +5,7 @@ set -e
 # Get git
 sudo apt-get update
 if ! [ "$(which git)" ]; then
-    sudo apt-get install git -y
+    apt-get install git -y
 fi
 
 # Download prototype-cjdns-pi2 repo
